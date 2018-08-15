@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/OVRCService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/OVRCService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="OVRCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="B" type="xs:float" />
+      <xs:element minOccurs="0" name="Caption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaptionB" type="xs:float" />
+      <xs:element minOccurs="0" name="CaptionG" type="xs:float" />
+      <xs:element minOccurs="0" name="CaptionR" type="xs:float" />
+      <xs:element minOccurs="0" name="DurationMS" type="xs:int" />
+      <xs:element minOccurs="0" name="G" type="xs:float" />
+      <xs:element minOccurs="0" name="R" type="xs:float" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TextB" type="xs:float" />
+      <xs:element minOccurs="0" name="TextG" type="xs:float" />
+      <xs:element minOccurs="0" name="TextR" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OVRCard" nillable="true" type="tns:OVRCard" />
+</xs:schema>

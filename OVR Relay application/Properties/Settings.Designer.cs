@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DiscordOVR.Properties
+namespace OVR_Relay_application.Properties
 {
 
 
